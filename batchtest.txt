@@ -1,0 +1,20 @@
+
+then echo hello
+else echo no
+ecccho no
+else echo no
+ls
+ls *.c
+cd test
+pwd
+ls *
+cd ..
+pwd
+which cat
+ls *
+ls t*.txt
+echo Look in > test.txt test.txt to see this text
+cat < test2.txt
+which cat
+/usr/bin/cat < test3.txt
+else echo hello | pwd

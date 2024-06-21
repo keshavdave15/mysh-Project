@@ -1,0 +1,52 @@
+khd47@man:~/P3$ ./mysh
+Interactive mode
+Welcome to my shell!
+mysh> 
+mysh> then echo hello
+hello
+mysh> else echo no
+mysh> ecccho no
+Program ecccho not found
+mysh> else echo no
+no
+mysh> ls
+arraylist.c  batchtest.txt  mysh.c  test2.txt  testingResults.txt
+arraylist.h  mysh           test    test3.txt  test.txt
+mysh> ls *.c
+arraylist.c  mysh.c
+mysh> cd test
+mysh> pwd
+/common/home/khd47/P3
+mysh> ls *
+arraylist.c  batchtest.txt  mysh.c     test3.txt           test.txt
+arraylist.h  mysh           test2.txt  testingResults.txt
+
+test:
+1.txt  2.txt
+mysh> cd ..
+mysh> pwd
+/common/home/khd47/P3
+mysh> which cat 
+/usr/bin/cat
+mysh> ls *
+arraylist.c  batchtest.txt  mysh.c     test3.txt           test.txt
+arraylist.h  mysh           test2.txt  testingResults.txt
+
+test:
+1.txt  2.txt
+mysh> ls t*.txt
+test2.txt  test3.txt  testingResults.txt  test.txt
+mysh> echo Look in > test.txt test.txt to see this text
+mysh> cat < test2.txt
+/usr/bin/grep
+mysh> which cat
+/usr/bin/cat
+mysh> /usr/bin/cat < test3.txt
+Cannot open file: test3.txt
+mysh> else echo hello | pwd
+/common/home/khd47/P3
+mysh> echo hello | cat
+hello 
+mysh> exit have a good day
+have a good day 
+Exiting my shell.
